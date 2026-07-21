@@ -9,14 +9,14 @@ University students rely on vairous platforms to access campus information and s
 - Make communicaton easier.
 - Help studnts recover lost items faster.
 - Create a marketplace fo students.
-- Advertise campus event.
+- Promote campus events and increase student participation.
 - Improve communication between students and campus leadership.
 
   ## Users
-  -University Administration
   -Students
   -Student leaders
   -Student organizations
+  -University Administration
 
   ## Version 1 Features
   -User registration
@@ -41,8 +41,8 @@ University students rely on vairous platforms to access campus information and s
   Database
   -PostgreSQL
   Version cotrol
-  Git
-  Github
+  -Git
+  -Github
 
   ##Project Status
   Planning
