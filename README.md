@@ -45,4 +45,4 @@ University students rely on vairous platforms to access campus information and s
   -Github
 
   ##Project Status
-  Planning
+  -Planning...
