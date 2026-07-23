@@ -16,7 +16,7 @@ class Homepage extends StatelessWidget {
       body: SafeArea(
         child: Center(
           child: 
-            Text("Homepage")
+            Text(" Welcome to our Homepage")
         )),
     );
   }
