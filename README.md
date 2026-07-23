@@ -64,5 +64,5 @@ University students rely on vairous platforms to access campus information and s
   -Github
 
   ##Project Status
-  -Planning...
+  -Planning phase...
 >>>>>>> 68a1dd4663c1255749103fc6d9d33d1c3b7c49fb
