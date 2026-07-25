@@ -16,11 +16,16 @@ class _SplashPageState extends State<SplashPage> {
           child: Column(
             mainAxisSize: MainAxisSize.min,
             children: [
-              Icon(Icons.school_outlined),
+              Icon(Icons.school_outlined,
+              fontWeight: FontWeight.w700,),
               SizedBox(height: 10,),
-              Text("Campushub"),
+              Text("Campushub",
+              style: TextStyle(
+                color: Colors.black,
+                fontSize: 50,
+              ),),
               SizedBox(height: 10,),
-              Text("Tagline")      
+              Text("Everything campus, one app")      
                ],
           ),
         )),
