@@ -12,7 +12,7 @@ class _WelcomePageState extends State<WelcomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.grey,
+      backgroundColor: Colors.black87,
       appBar: AppBar(
         title: const Text("Campushub"),
         centerTitle: true,
@@ -32,7 +32,7 @@ class _WelcomePageState extends State<WelcomePage> {
               Text("Stay connected. Stay informed",
               style: TextStyle(
                 color: Colors.black,
-                fontSize: 10,
+                fontSize: 20,
                 fontWeight: FontWeight.bold
               ),),
               SizedBox(height: 20,),
