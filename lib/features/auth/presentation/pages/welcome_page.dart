@@ -12,7 +12,7 @@ class _WelcomePageState extends State<WelcomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.black87,
+      backgroundColor: Colors.blueGrey,
       appBar: AppBar(
         title: const Text("Campushub"),
         centerTitle: true,
@@ -23,18 +23,29 @@ class _WelcomePageState extends State<WelcomePage> {
         child: Center(
           child: Column(
             children: [
+              Center(
+                child: Image.asset("assets/CH.logo.png", height: 250, width: 200,
+                color: Colors.cyanAccent,),
+              ),
               Text("Welcome To Campus hub",
               style: TextStyle(
                 fontSize: 40,
                 color: Colors.tealAccent,
                 fontWeight: FontWeight.w400
               ),),
-              Text("Stay connected. Stay informed",
+              SizedBox(height: 50,),
+              Text("Stay connected...",
               style: TextStyle(
                 color: Colors.black,
-                fontSize: 20,
+                fontSize: 40,
                 fontWeight: FontWeight.bold
               ),),
+              SizedBox(height: 20,),
+              Container(
+                height: 400,
+                width: 400,
+                child: Image.asset("assets/CH.welcome.png", fit: BoxFit.cover,),
+              ),
               SizedBox(height: 20,),
               AppButton(
                 text: "Get Started", 
